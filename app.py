@@ -15,6 +15,9 @@ app.config["admin_email"] = "benjamin.glick@ge.com"
 app.secret_key = b'\x9b4\xf8%\x1b\x90\x0e[?\xbd\x14\x7fS\x1c\xe7Y\xd8\x1c\xf9\xda\xb0K=\xba'
 # I will obviously change this secret key before we go live
 
+nodes_list = ["mayo", "bacon", "lettuce", "tomato", "sprouts"]
+services_list = ["dns", "ping", "ssh", "sge"]
+
 
 @app.route('/')
 @app.route('/index')
